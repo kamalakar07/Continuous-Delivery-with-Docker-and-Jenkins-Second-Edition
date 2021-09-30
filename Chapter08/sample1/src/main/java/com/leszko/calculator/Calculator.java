@@ -1,3 +1,9 @@
+package com.leszko.calculator;
+
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
+
+@Service
 /**
 * Some javadoc. // OK
 *
@@ -14,13 +20,6 @@
 * @serialData // OK
 * @deprecated Some javadoc. // OK
 */
-
-package com.leszko.calculator;
-
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.stereotype.Service;
-
-@Service
 public class Calculator {
         final static int umlNUMBER1 = 3;
 	@Cacheable("sum")
