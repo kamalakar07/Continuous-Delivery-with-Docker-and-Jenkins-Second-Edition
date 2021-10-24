@@ -38,7 +38,7 @@ public class StepDefinitions {
     }
 
     @Given("^I have two numbers for division: (.*) and (.*)$")
-    public void i_have_two_numbers(String a, String b) throws Throwable {
+    public void i_have_two_numbers_for_division(String c, String d) throws Throwable {
         this.c = c;
         this.d = d;
     }
